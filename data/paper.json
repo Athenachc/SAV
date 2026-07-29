@@ -67,7 +67,7 @@
       }
     ],
   
-    "acknowledgements": "This work was supported in part by the Ministry of Science and Technology (MOST) of China under Grant numbers 2025YFE0122500 and 2024YFE0216200; the Innovation and Technology Fund (ITF) of the Hong Kong SAR under Grant number MHP/185/24; the Hong Kong Research Grants Council (RGC) General Research Fund (GRF) under Grant numbers 14216022, 14204524, 14203323, and 14206125; the Research Impact Fund (RIF) under Grant number R4020-22; and the RGC Strategic Topics Grant (STG) under Grant number 1/M-405/25-N.",
+    "acknowledgements": "This work was supported by the Research Centre of Unmanned Autonomous Systems (RCUAS) [P0046487], The Hong Kong Polytechnic University",
   
     "authors": [
       { "name": "Hiu Ching Cheung",       "affil": "The Hong Kong Polytechnic University", "photo": "assets/authors/athena.jpg",     "links": ["https://athenachc.github.io/"]},
