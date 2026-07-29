@@ -1,0 +1,82 @@
+{
+    "shortTitle": "SAV",
+    "venueLine": "RoboSoft • 2024",
+    "title": "A Modular Pneumatic Soft Gripper Design for Aerial Grasping and Landing",
+    "subtitle": "A Lightweight YOLO and SAM2 Framework for Robotic-Assisted Tracheostomy",
+    "doi": "",
+    "lastUpdated": "2026-07-30",
+    "footerLeft": "© 2024 AIRO Lab • The Hong Kong Polytechnic University",
+  
+    "buttons": [
+      { "label": "Paper (arXiv)", "href": "https://arxiv.org/html/2311.00390v3", "style": "primary" },
+      { "label": "Paper (IEEE)", "href": "https://ieeexplore.ieee.org/document/10521918", "style": "primary" },
+      { "label": "PDF", "href": "data/2311.00390v3.pdf", "style": "secondary" },
+      { "label": "Video", "href": "https://youtu.be/rHRo_83o-0E?si=jN5mLMxMs6wgMWln", "style": "secondary" },
+      { "label": "Code (SAV)", "href": "https://github.com/Athenachc/sav_control", "style": "secondary" },
+      { "label": "Code (Soft Gripper)", "href": "https://github.com/Athenachc/sav_gripper", "style": "secondary" }
+    ],
+  
+    "tags": [
+      "Soft robotics",
+      "UAVs",
+      "Aerial grasping"
+    ],
+  
+    "affiliationsLine": "The Hong Kong Polytechnic University • AIRO Lab",
+  
+    "teaser": {
+      "src": "assets/img/figures/f330_sav.png",
+      "alt": "sav",
+      "caption": "Illustration of the proposed modular pneumatic soft gripper with a conventional drone."
+    },
+  
+    "abstract": "Aerial robots have garnered significant attention due to their potential applications in various industries, such as inspection, search and rescue, and drone delivery. Successful missions often depend on the ability of these robots to grasp and land effectively. This paper presents a novel modular soft gripper design tailored explicitly for aerial grasping and landing operations. The proposed modular pneumatic soft gripper incorporates a feed-forward proportional controller to regulate pressure, enabling compliant gripping capabilities. The modular connectors of the soft fingers offer two configurations for the 4-tip soft gripper, H-base (cylindrical) and X-base (spherical), allowing adaptability to different target objects. Additionally, the gripper can serve as a soft landing gear when deflated, eliminating the need for an extra landing gear. This design reduces weight, simplifies aerial manipulation control, and enhances flight efficiency. We demonstrate the efficacy of indoor aerial grasping and achieve a maximum payload of 217 g using the proposed soft aerial vehicle and its H-base pneumatic soft gripper (808 g).",
+  
+    "featuredFigure": {
+      "src": "assets/img/figures/f330_sav.png",
+      "alt": "sav",
+      "caption": "Illustration of the proposed modular pneumatic soft gripper with a conventional drone."
+    },
+  
+    "galleryFigures": [
+      { "src": "assets/img/figures/f330_sav.png", "alt": "sav", "caption": "System overview of the proposed framework for hierarchical tracheal anatomy understanding." },
+      { "src": "assets/img/figures/me_design.png", "alt": "me_design", "caption": "Dimensions of the X-base (spherical) soft gripper when it is (a) initially opened, (b) fully opened, and (c) fully closed. And the dimensions of the H-base (cylindrical) soft gripper when it is (d) initially opened, (e) fully opened, and (f) fully closed." },
+      { "src": "assets/img/figures/aerial_grasping.png", "alt": "aerial_grasping", "caption": " Aerial grasping process with the H-base soft gripper: (a) Approaching the target, (b) Starting grasping, (c) Picking up the object." },
+      { "src": "assets/img/figures/grasp_test2.png", "alt": "grasping", "caption": "Examples of grasping tests: Grasping (a) a pen holder with 270 g loads and (b) a spherical container with 160 g loads by an X-base gripper; Grasping (c) a computer mouse and (d) a can of spray paint with an H-base gripper." },
+      { "src": "assets/img/figures/landing.png", "alt": "landing", "caption": "Simple landing test with (a) the H-base soft gripper and (b) the X-base soft gripper, and tilt landing test with the (c) X-base and (d) H-base soft gripper." }
+    ],
+  
+    "video": {
+      "youtubeId": "rHRo_83o-0E",
+      "title": "A Modular Pneumatic Soft Gripper Design for Aerial Grasping and Landing"
+    },
+
+  
+    "institutions": [
+      {
+        "name": "The Hong Kong Polytechnic University",
+        "logoSrc": "assets/img/logo/polyu.png",
+        "href": "https://www.polyu.edu.hk/",
+        "position": "center-top"
+      },
+      {
+        "name": "AIRO Lab",
+        "logoSrc": "assets/img/logo/airo_lab.png",
+        "href": "https://gh034.github.io/",
+        "position": "center-top"
+      }
+    ],
+  
+    "acknowledgements": "This work was supported in part by the Ministry of Science and Technology (MOST) of China under Grant numbers 2025YFE0122500 and 2024YFE0216200; the Innovation and Technology Fund (ITF) of the Hong Kong SAR under Grant number MHP/185/24; the Hong Kong Research Grants Council (RGC) General Research Fund (GRF) under Grant numbers 14216022, 14204524, 14203323, and 14206125; the Research Impact Fund (RIF) under Grant number R4020-22; and the RGC Strategic Topics Grant (STG) under Grant number 1/M-405/25-N.",
+  
+    "authors": [
+      { "name": "Hiu Ching Cheung",       "affil": "The Hong Kong Polytechnic University", "photo": "assets/authors/athena.jpg",     "links": ["https://athenachc.github.io/"]},
+      { "name": "Ching-Wei Chang",        "affil": "Hong Kong Center for Construction Robotics", "photo": "assets/authors/ching-wei.png",     "links": ["https://scholar.google.com/citations?user=1WEOw-EAAAAJ&hl=en"]},
+      { "name": "Bailun Jiang",    "affil": "The Hong Kong Polytechnic University", "photo": "assets/authors/bailun.png", "links": ["https://scholar.google.com/citations?user=ujaT6SsAAAAJ&hl=en"] },
+      { "name": "Chih-Yung Wen",          "affil": "The Hong Kong Polytechnic University", "photo": "assets/authors/prof_wen.png", "links": ["https://gh034.github.io/"] },
+      { "name": "Henry K. Chu",     "affil": "The Hong Kong Polytechnic University", "photo": "assets/authors/henry.png",  "links": ["https://henrychulab.github.io/"] }
+    ],
+  
+    "bibtex": "@inproceedings{cheung2024modular, \n title={A modular pneumatic soft gripper design for aerial grasping and landing}, \n author={Cheung, Hiu Ching and Chang, Ching-Wei and Jiang, Bailun and Wen, Chih-Yung and Chu, Henry K}, \n booktitle={2024 IEEE 7th International Conference on Soft Robotics (RoboSoft)}, \n pages={82--88}, \n year={2024}, \n organization={IEEE}}"
+  }
+  
